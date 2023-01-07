@@ -1,0 +1,94 @@
+*{ font-family: 'Open Sans', sans-serif;}
+
+.header {
+    background: wheat;
+    background-image:url(../images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    height:100vh ;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    color: orangered;
+    padding:0px ;
+    margin-right: 275px;
+    justify-content: space-around;
+    
+    
+    
+
+}
+.btn-primary{
+    background-color: orangered;
+    height: 65px;
+    border-radius: 5px;
+    color: bisque;
+    padding: 20px 30px;
+    border: 0;
+    font-size: medium;
+    font-weight: 700px;
+}
+.secondery {
+    margin-top: 10px ;
+    padding: 130px 100px ;
+    border-radius: 10px;
+    background:pink;
+    text-align: justify;
+    text-align-last: right;
+    background-image: url(../images/person.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+    margin-right: 150px;
+    color: black;
+    
+
+}
+.section-title{
+text-align: center;
+font-size: 30px;
+font-weight: 30px;
+padding: 20px;
+}
+.skill-container{
+    display: flex;
+    
+}
+.skill-title{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill{ 
+    padding: 110px;
+}
+.watch {
+    background-image: url(../images/gradient1.png),url(../images/watch.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    padding: 80px 100px;
+   margin: 0;
+}
+.always{
+    text-align: top left;
+    font-size: 40px;
+}
+.contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 100px 100px;
+    gap: 250px;
+    margin: 20px;
+    border-radius: 10px;
+}
+a{
+    padding: 8px; ;
+}
+input{
+    padding: 10px;
+    font-size: medium;
+}
